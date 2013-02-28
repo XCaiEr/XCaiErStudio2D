@@ -8,6 +8,8 @@ class Engine
 public:
 	Engine();
 	~Engine();
+	
+	void Run();
 
 private:
 	HGE* m_pHGE;
