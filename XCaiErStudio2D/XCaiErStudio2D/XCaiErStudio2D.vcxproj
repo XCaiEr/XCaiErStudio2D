@@ -10,6 +10,20 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameEngine\Component.cpp" />
+    <ClCompile Include="GameEngine\GameEngine.cpp" />
+    <ClCompile Include="GameEngine\Object.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameEngine\Behaviour.h" />
+    <ClInclude Include="GameEngine\Component.h" />
+    <ClInclude Include="GameEngine\GameEngine.h" />
+    <ClInclude Include="GameEngine\GameObject.h" />
+    <ClInclude Include="GameEngine\Object.h" />
+    <ClInclude Include="GameEngine\Resources.h" />
+    <ClInclude Include="GameEngine\Transform.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{AB0402FF-F1D8-40B1-88EA-8B6C075689AB}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -83,15 +97,6 @@
       <AdditionalDependencies>hge.lib;hgehelp.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="GameEngine.h" />
-    <ClInclude Include="Object.h" />
-    <ClInclude Include="Resources.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="GameEngine.cpp" />
-    <ClCompile Include="Object.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

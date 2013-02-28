@@ -6,22 +6,37 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="GameEngine.h">
+    <ClCompile Include="GameEngine\Component.cpp">
       <Filter>GameEngine</Filter>
-    </ClInclude>
-    <ClInclude Include="Object.h">
+    </ClCompile>
+    <ClCompile Include="GameEngine\GameEngine.cpp">
       <Filter>GameEngine</Filter>
-    </ClInclude>
-    <ClInclude Include="Resources.h">
+    </ClCompile>
+    <ClCompile Include="GameEngine\Object.cpp">
       <Filter>GameEngine</Filter>
-    </ClInclude>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="GameEngine.cpp">
+    <ClInclude Include="GameEngine\Component.h">
       <Filter>GameEngine</Filter>
-    </ClCompile>
-    <ClCompile Include="Object.cpp">
+    </ClInclude>
+    <ClInclude Include="GameEngine\GameEngine.h">
       <Filter>GameEngine</Filter>
-    </ClCompile>
+    </ClInclude>
+    <ClInclude Include="GameEngine\GameObject.h">
+      <Filter>GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\Object.h">
+      <Filter>GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\Resources.h">
+      <Filter>GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\Behaviour.h">
+      <Filter>GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine\Transform.h">
+      <Filter>GameEngine</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
