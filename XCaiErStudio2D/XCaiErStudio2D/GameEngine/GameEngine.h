@@ -1,4 +1,4 @@
-#include "HGE/include/hge.h"
+#include "../HGE/include/hge.h"
 #include "Object.h"
 #include "Resources.h"
 #include <list>
